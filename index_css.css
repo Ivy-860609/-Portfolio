@@ -27,7 +27,7 @@ ul li {
 #banner {
     width: 100%;
     height: 670px;
-    background-image: url(/Portfolio/img/banner_paw.png);
+    background-image: url(Ivy-860609.github.io/banner_paw.png);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: -90px;
@@ -35,7 +35,7 @@ ul li {
 #banner_catbg {
     width: 100%;
     height: 670px;
-    background-image: url(/Portfolio/img/banner_bg.png);
+    background-image: url(Ivy-860609.github.io/banner_bg.png);
     background-repeat: no-repeat;
     background-position-x: center;
     background-attachment: fixed;
@@ -43,7 +43,7 @@ ul li {
 #banner_skill {
     width: 100%;
     height: 670px;
-    background-image: url(/Portfolio/img/banner_skill.png);
+    background-image: url(Ivy-860609.github.io/banner_skill.png);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: -90px;
@@ -51,7 +51,7 @@ ul li {
 #banner_cat {
     width: 100%;
     height: 670px;
-    background-image: url(/Portfolio/img/banner_cat2.png);
+    background-image: url(Ivy-860609.github.io/banner_cat2.png);
     background-position-y: -40px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -69,7 +69,7 @@ ul li {
 .pic {
     width: 100%;
     height: 300px;
-    background-image: url(/Portfolio/img/me.png);
+    background-image: url(Ivy-860609.github.io/me.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -154,7 +154,7 @@ ul li {
     height: 250px;
     background-color: #f3f3f3;
     text-align: center;
-    background-image: url(/Portfolio/img/morebg.png);
+    background-image: url(Ivy-860609.github.io/morebg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-position-y:  20px;
