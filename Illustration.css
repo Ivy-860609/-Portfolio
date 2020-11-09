@@ -1,0 +1,287 @@
+body,html {
+    width: 100%;
+    height: 1550px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f3f3f3;
+    font-family: 'Orator Std Medium','Microsoft JhengHei';
+}
+/* 導覽列 */
+.nav {
+    color: #f3f3f3;
+    background-color: none;
+    position: relative;
+    z-index: 1;
+}
+.nav:hover {
+    color: #c4b6b6;
+}
+ul {
+    margin-right: 120px;
+    padding: 0px;
+    text-align: right;
+    vertical-align: middle;
+    background-color: none;
+}
+ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+/* 平面設計封面 */
+
+#banner_bg {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    margin-top: -4.2%;
+    z-index: 0;
+}
+
+#banner_cat {
+    width: 100%;
+    height: 550px;
+    z-index: 0;
+    background-color: #a78a7f;
+    overflow: hidden;
+    position: fixed;
+}
+
+.bn_pic {
+    width: 30%;
+    height: 320px;
+    overflow: hidden;
+    float: left;
+    transform: rotate(-5deg);
+    position: relative;
+    box-shadow:1.5px 1.5px 5px #707070;
+    opacity: 70%;
+}
+.bn_pic_1 {
+    bottom: 5%;
+    left: 10%;
+}
+.bn_pic_2 {
+    bottom: 13.5%;
+    left: 15%;
+}
+.bn_pic_3 {
+    top: 55%;
+    right: 35%;
+}
+.bn_pic_4 {
+    left: 60%;
+    bottom: 11.5%;
+}
+.pic_1 {
+    width: 100%;
+    position: relative;
+}
+.pic_2 {
+    width: 100%;
+    position: relative;
+}
+.pic_3 {
+    width: 100%;
+    position: relative;
+}
+.pic_4 {
+    width: 100%;
+    position: relative;
+}
+/* 作品集 */
+.work {
+    width: 100%;
+    height: 1100px;
+    position: absolute;
+    background-color: #c4b6b6;
+}
+.banner {
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    background-color: #fef6ef;
+    z-index: 1;
+    text-align: center;
+}
+.banner img {
+    height: 100%;
+    z-index: 1;
+}
+
+.draw_bg {
+    width: 100%;
+    height: 305px;
+    position: absolute;
+    background-color: #f3f3f3;
+    z-index: 0;
+    opacity: 0%;
+    transition: ease-in-out 1s;
+    text-align: center;
+}
+.draw_bg h3 {
+    position: relative;
+    top: 80%;
+    color: #a78a7f;
+}
+
+.draw {
+    width: 20%;
+    height: 305px;
+    overflow: hidden;
+    position: relative;
+    left: 15%;
+    top: 4.5%;
+    background-color: #a78a7f;
+    float: left;
+}
+
+.draw img {
+    height: 85%;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+
+.draw_bg:hover {
+    opacity: 70%;
+}
+.draw img:hover {
+    z-index: 0;
+}
+
+.cat_bg {
+    width: 100%;
+    height: 305px;
+    position: absolute;
+    background-color: #f3f3f3;
+    z-index: 0;
+    opacity: 0%;
+    transition: ease-in-out 1s;
+    text-align: center;
+}
+.cat_bg h3 {
+    position: relative;
+    top: 80%;
+    color: #a78a7f;
+}
+
+.cat {
+    width: 20%;
+    height: 305px;
+    overflow: hidden;
+    position: relative;
+    left: 20%;
+    top: 4.5%;
+    background-color: #a78a7f;
+    float: left;
+}
+
+.cat img {
+    width: 95%;
+    position: absolute;
+    left: 5%;
+}
+
+.cat_bg:hover {
+    opacity: 70%;
+}
+.cat img:hover {
+    z-index: 0;
+}
+
+.air_bg {
+    width: 100%;
+    height: 305px;
+    position: absolute;
+    background-color: #f3f3f3;
+    z-index: 0;
+    opacity: 0%;
+    transition: ease-in-out 1s;
+    text-align: center;
+}
+
+.airpods {
+    width: 20%;
+    height: 305px;
+    overflow: hidden;
+    position: relative;
+    left: 25%;
+    top: 4.5%;
+    background-color: #a78a7f;
+    float: left;
+}
+.air_bg:hover {
+    opacity: 70%;
+}
+.air_bg h3 {
+    position: relative;
+    top: 80%;
+    color: #a78a7f;
+}
+.airpods img {
+    width: 80%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.airpods img:hover {
+    z-index: 0;
+}
+
+/* 聯絡我 */
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: #a78a7f;
+    z-index: 2;
+    position: relative;
+    top: 70%;
+}
+.mail {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 210px;
+    right: 30px;
+    z-index: 2;
+}
+.fb {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 150px;
+    right: 30px;
+    z-index: 2;
+}
+.ig {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+    z-index: 2;
+}
+/* 返回頂端按鈕 */
+.back-to-top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 30px;
+    right: 30px;
+    color: #f3f3f3;
+    font-size: 30px;
+    outline-style: none;
+    transition: background-color 0.4s;
+    background-color: #a78a7f;
+    border: solid #f3f3f3 2px;
+    border-radius: 999em;
+    display: none;
+    z-index: 99;
+}
+.back-to-top:hover {
+    color: #a78a7f;
+    background-color: #f3f3f3;
+    border: solid #a78a7f 2px;
+    cursor: pointer;
+}

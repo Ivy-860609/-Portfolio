@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <html lang="zh-TW">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/Portfolio/Illustration.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="shortcut icon" href="/Portfolio/img/Ivy.svg">
+    <title>Ivy's Portfolio</title>
+</head>
+<body>
+    <ul>
+        <a class="nav" href="/Portfolio/index.html"><li>Home</li></a>
+        <a class="nav" href="/Portfolio/graphic_design.html"><li>Graphic Design</li></a>
+       <!-- <a class="nav" href="/Portfolio/3d_design.html"><li>3D Design</li></a> -->
+    </ul>
+        <div id="banner_bg">
+            <div id="banner_cat">
+                <div class="bn_pic bn_pic_1"><img class="pic_1" src="/Portfolio/img/02-01.png"></div>
+                <div class="bn_pic bn_pic_2"><img class="pic_2" src="/Portfolio/img/draw_2.png"></div>
+                <div class="bn_pic bn_pic_3"><img class="pic_3" src="/Portfolio/img/draw_3.png"></div>
+                <div class="bn_pic bn_pic_4"><img class="pic_4" src="/Portfolio/img/2-1-01.png"></div>
+            </div>
+        </div>
+        <div class="work">
+            <div class="banner"><img src="/Portfolio/img/running.png"></div>
+            <div class="draw">
+                <img src="/Portfolio/img/kkbox.png"/>
+                <div class="draw_bg"><h3>kkbox｜語音書封面設計</h3></div>
+            </div>
+            <div class="cat">
+                <img src="/Portfolio/img/sticker_cat_2.png"/>
+                <div class="cat_bg"><h3>貼圖｜吃貨小橘貓的日常</h3></div>
+            </div>
+            <div class="airpods">
+                <img src="/Portfolio/img/airpods.png"/>
+                <div class="air_bg"><h3>商品｜airpods周邊</h3></div>
+            </div>            
+        </div>
+        <div class="footer"></div>
+    <div>
+        <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=ssqqssqq0@gmail.com"><img class="mail" src="/Portfolio/img/gmail.svg"></a>
+    </div>
+    <div>
+        <a href="https://www.facebook.com/profile.php?id=100002309681832"><img class="fb" src="/Portfolio/img/facebook.svg"></a>
+    </div>
+    <div>
+        <a href="https://www.instagram.com/suan0609/"><img class="ig" src="/Portfolio/img/instagram.svg"></a>
+    </div>
+        <button class="js-back-to-top back-to-top" title="回到頂部">&#8679;</button>
+        <script type="text/javascript">
+        $(document).ready(function () {
+        $(".pic,.about_me,.title h3,.square_l p,.square_r p").mouseover(function () {
+            $(".square").addClass("show");
+        });
+        });
+
+        $(function () {
+            var $win = $(window);
+            var $backToTop = $('.js-back-to-top');
+            $win.scroll(function () {
+                if ($win.scrollTop() > 200) {
+                    $backToTop.show();
+                    } else {
+                        $backToTop.hide();
+                        }
+                        });
+                        
+        $backToTop.click(function () {
+            $('html, body').animate({scrollTop: 0}, 200);
+            });
+            });
+    </script>
+</body>
+</html>
