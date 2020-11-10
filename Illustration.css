@@ -34,60 +34,21 @@ ul li {
     height: 550px;
     position: relative;
     margin-top: -4.2%;
-    z-index: 0;
 }
 
-#banner_cat {
+#banner_phonecase {
     width: 100%;
     height: 550px;
     z-index: 0;
     background-color: #a78a7f;
     overflow: hidden;
     position: fixed;
+    background-image: url(/il_bn.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 }
 
-.bn_pic {
-    width: 30%;
-    height: 320px;
-    overflow: hidden;
-    float: left;
-    transform: rotate(-5deg);
-    position: relative;
-    box-shadow:1.5px 1.5px 5px #707070;
-    opacity: 70%;
-}
-.bn_pic_1 {
-    bottom: 5%;
-    left: 10%;
-}
-.bn_pic_2 {
-    bottom: 13.5%;
-    left: 15%;
-}
-.bn_pic_3 {
-    top: 55%;
-    right: 35%;
-}
-.bn_pic_4 {
-    left: 60%;
-    bottom: 11.5%;
-}
-.pic_1 {
-    width: 100%;
-    position: relative;
-}
-.pic_2 {
-    width: 100%;
-    position: relative;
-}
-.pic_3 {
-    width: 100%;
-    position: relative;
-}
-.pic_4 {
-    width: 100%;
-    position: relative;
-}
 /* 作品集 */
 .work {
     width: 100%;
@@ -99,7 +60,7 @@ ul li {
     width: 100%;
     height: 650px;
     overflow: hidden;
-    background-color: #fef6ef;
+    background-color: #f3f3f3;
     z-index: 1;
     text-align: center;
 }
@@ -108,23 +69,7 @@ ul li {
     z-index: 1;
 }
 
-.draw_bg {
-    width: 100%;
-    height: 305px;
-    position: absolute;
-    background-color: #f3f3f3;
-    z-index: 0;
-    opacity: 0%;
-    transition: ease-in-out 1s;
-    text-align: center;
-}
-.draw_bg h3 {
-    position: relative;
-    top: 80%;
-    color: #a78a7f;
-}
-
-.draw {
+.mug {
     width: 20%;
     height: 305px;
     overflow: hidden;
@@ -133,39 +78,16 @@ ul li {
     top: 4.5%;
     background-color: #a78a7f;
     float: left;
+    z-index: 1;
 }
-
-.draw img {
-    height: 85%;
-    position: absolute;
-    left: 10%;
-    top: 5%;
-}
-
-.draw_bg:hover {
-    opacity: 70%;
-}
-.draw img:hover {
-    z-index: 0;
-}
-
-.cat_bg {
-    width: 100%;
-    height: 305px;
-    position: absolute;
-    background-color: #f3f3f3;
-    z-index: 0;
-    opacity: 0%;
-    transition: ease-in-out 1s;
-    text-align: center;
-}
-.cat_bg h3 {
+.mug img {
+    height: 115%;
     position: relative;
-    top: 80%;
-    color: #a78a7f;
+    right: 26%;
+    bottom: 12%;
+    z-index: 0;
 }
-
-.cat {
+.airpods {
     width: 20%;
     height: 305px;
     overflow: hidden;
@@ -176,31 +98,12 @@ ul li {
     float: left;
 }
 
-.cat img {
-    width: 95%;
+.airpods img {
+    height: 100%;
     position: absolute;
-    left: 5%;
 }
 
-.cat_bg:hover {
-    opacity: 70%;
-}
-.cat img:hover {
-    z-index: 0;
-}
-
-.air_bg {
-    width: 100%;
-    height: 305px;
-    position: absolute;
-    background-color: #f3f3f3;
-    z-index: 0;
-    opacity: 0%;
-    transition: ease-in-out 1s;
-    text-align: center;
-}
-
-.airpods {
+.phonecase {
     width: 20%;
     height: 305px;
     overflow: hidden;
@@ -210,23 +113,9 @@ ul li {
     background-color: #a78a7f;
     float: left;
 }
-.air_bg:hover {
-    opacity: 70%;
-}
-.air_bg h3 {
-    position: relative;
-    top: 80%;
-    color: #a78a7f;
-}
-.airpods img {
-    width: 80%;
+.phonecase img {
+    height: 100%;
     position: absolute;
-    top: 15%;
-    left: 10%;
-}
-
-.airpods img:hover {
-    z-index: 0;
 }
 
 /* 聯絡我 */
