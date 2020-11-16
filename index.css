@@ -114,6 +114,50 @@ body,html {
     .anybeam img {
         width: 49%;
     }
+    /* 聯絡我 */
+.mail {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 210px;
+    right: 30px;
+}
+.fb {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 150px;
+    right: 30px;
+}
+.ig {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+}
+/* 返回頂端按鈕 */
+.back-to-top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 30px;
+    right: 30px;
+    color: #f3f3f3;
+    font-size: 30px;
+    outline-style: none;
+    transition: background-color 0.4s;
+    background-color: #a78a7f;
+    border: solid #f3f3f3 2px;
+    border-radius: 999em;
+    display: none;
+}
+.back-to-top:hover {
+    color: #a78a7f;
+    background-color: #f3f3f3;
+    border: solid #a78a7f 2px;
+    cursor: pointer;
+}
 }
 @media only screen and (min-width:768px){
     /* 頁首 */
@@ -218,6 +262,51 @@ body,html {
     .anybeam img {
         width: 49%;
     }
+    /* 聯絡我 */
+
+.mail {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 210px;
+    right: 30px;
+}
+.fb {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 150px;
+    right: 30px;
+}
+.ig {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+}
+/* 返回頂端按鈕 */
+.back-to-top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 30px;
+    right: 30px;
+    color: #f3f3f3;
+    font-size: 30px;
+    outline-style: none;
+    transition: background-color 0.4s;
+    background-color: #a78a7f;
+    border: solid #f3f3f3 2px;
+    border-radius: 999em;
+    display: none;
+}
+.back-to-top:hover {
+    color: #a78a7f;
+    background-color: #f3f3f3;
+    border: solid #a78a7f 2px;
+    cursor: pointer;
+}
 }
 @media only screen and (max-width:767px){
     /* 頁首 */
@@ -320,34 +409,27 @@ body,html {
         width: 100%;
         margin-top: 10px;
     }
-}
-/* 聯絡我 */
-.footer {
-    width: 100%;
-    height: 50px;
-    background-color: #a78a7f;
-}
-
+    /* 聯絡我 */
 .mail {
     width: 50px;
     height: 50px;
     position: fixed;
-    bottom: 210px;
-    right: 30px;
+    bottom: 30px;
+    right: 210px;
 }
 .fb {
     width: 50px;
     height: 50px;
     position: fixed;
-    bottom: 150px;
-    right: 30px;
+    bottom: 30px;
+    right: 150px;
 }
 .ig {
     width: 50px;
     height: 50px;
     position: fixed;
-    bottom: 90px;
-    right: 30px;
+    bottom: 30px;
+    right: 90px;
 }
 /* 返回頂端按鈕 */
 .back-to-top {
@@ -365,9 +447,10 @@ body,html {
     border-radius: 999em;
     display: none;
 }
-.back-to-top:hover {
+.back-to-top:active {
     color: #a78a7f;
     background-color: #f3f3f3;
     border: solid #a78a7f 2px;
     cursor: pointer;
+}
 }
