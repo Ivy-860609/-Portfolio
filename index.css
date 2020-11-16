@@ -414,30 +414,33 @@ body,html {
     width: 50px;
     height: 50px;
     position: fixed;
-    bottom: 30px;
-    right: 210px;
+    bottom: 15px;
+    right: 30px;
+    opacity: 0.5;
 }
 .fb {
     width: 50px;
     height: 50px;
     position: fixed;
-    bottom: 30px;
-    right: 150px;
+    bottom: 15px;
+    right: 90px;
+    opacity: 0.5;
 }
 .ig {
     width: 50px;
     height: 50px;
     position: fixed;
-    bottom: 30px;
-    right: 90px;
+    bottom: 15px;
+    right: 150px;
+    opacity: 0.5;
 }
 /* 返回頂端按鈕 */
 .back-to-top {
     position: fixed;
     width: 50px;
     height: 50px;
-    bottom: 30px;
-    right: 30px;
+    bottom: 15px;
+    right: 210px;
     color: #f3f3f3;
     font-size: 30px;
     outline-style: none;
@@ -446,11 +449,13 @@ body,html {
     border: solid #f3f3f3 2px;
     border-radius: 999em;
     display: none;
+    opacity: 0.5;
 }
 .back-to-top:active {
     color: #a78a7f;
     background-color: #f3f3f3;
     border: solid #a78a7f 2px;
     cursor: pointer;
+    opacity: 0.8;
 }
 }
