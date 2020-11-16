@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <html lang="zh-TW">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="shortcut icon" href="/Portfolio/img/Ivy.svg">
+    <title>Ivy's Portfolio</title>
+</head>
+<body>
+    <div>
+        <img class="bn" src="/Portfolio_1114/img/bn.png" />
+    </div>
+    <div class="work">
+        <div class="una_bn">
+            <img src="/Portfolio_1114/img/vd_bn.png" />
+        </div>
+        <div class="una_1">
+            <img src="/Portfolio_1114/img/1023-new-1-m.jpg" />
+            <img src="/Portfolio_1114/img/1023-new-2-m.jpg" />
+            <img src="/Portfolio_1114/img/1023-new-3-m.jpg" />
+        </div>
+        <div class="una_2">
+            <img src="/Portfolio_1114/img/1023-EDM.jpg" />
+        </div>
+        <div class="una_3">
+            <img id="new4" src="/Portfolio_1114/img/1009-new-3.jpg" />
+            <img id="long" src="/Portfolio_1114/img/UNA-LINE-1016.png"/>
+        </div>
+        <div class="cutline">
+        <img id="cut" src="/Portfolio_1114/img/cut.png">
+        </div>
+        <div class="project">
+            <div><img src="/Portfolio_1114/img/mug.png" /></div>
+            <div><img src="/Portfolio_1114/img/airpods2.png" /></div>
+            <div><img src="/Portfolio_1114/img/phonecase.png" /></div>
+        </div>
+        <div class="una_bn">
+            <img src="/Portfolio_1114/img/edm_bn.png" />
+        </div>
+        <div class="anybeam">
+            <img src="/Portfolio_1114/img/banner01.jpg">
+            <img src="/Portfolio_1114/img/banner02.jpg">
+        </div>
+    </div> 
+    <!--功能按鈕-->
+    <div>
+        <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=ssqqssqq0@gmail.com"><img class="mail" src="/Portfolio/img/gmail.svg"></a>
+    </div>
+    <div>
+        <a href="https://www.facebook.com/profile.php?id=100002309681832"><img class="fb" src="/Portfolio/img/facebook.svg"></a>
+    </div>
+    <div>
+        <a href="https://www.instagram.com/suan0609/"><img class="ig" src="/Portfolio/img/instagram.svg"></a>
+    </div>
+    <button class="js-back-to-top back-to-top" title="回到頂部">&#8679;</button>
+    <script type="text/javascript">
+        $(document).ready(function () {
+        $(".bn,.pic,.word,.word p").mouseover(function () {
+            $(".word").addClass("show");
+        });
+        });
+
+        $(function () {
+            var $win = $(window);
+            var $backToTop = $('.js-back-to-top');
+            $win.scroll(function () {
+                if ($win.scrollTop() > 200) {
+                    $backToTop.show();
+                    } else {
+                        $backToTop.hide();
+                        }
+                        });
+                        
+        $backToTop.click(function () {
+            $('html, body').animate({scrollTop: 0}, 200);
+            });
+            });
+    </script>
+</body>
+</html>
