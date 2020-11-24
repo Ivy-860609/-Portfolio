@@ -2,6 +2,7 @@ body, html {
   width: 100%;
   margin: 0px;
   font-family: "Microsoft JhengHei";
+  background-color: #f3f3f3;
 }
 
 .bn {
@@ -129,7 +130,7 @@ body, html {
     mix-blend-mode: darken;
   }
   .inner img {
-    width: 70%;
+    width: 50%;
     opacity: 1;
     transition: ease-in-out 1s;
   }
@@ -161,7 +162,7 @@ body, html {
   }
   .project div {
     width: 30%;
-    height:300px;
+    height: 310px;
     overflow: hidden;
   }
   .project div > img {
@@ -180,7 +181,6 @@ body, html {
     align-items: flex-start;
     background-color: #f3f3f3;
     margin-top: 20px;
-    margin-bottom:30px;
   }
   .anybeam img {
     width: 49%;
@@ -232,74 +232,85 @@ body, html {
     cursor: pointer;
   }
 }
-@media only screen and (min-width:768px){
-    .work {
-        width: 100%;
-        background-color: #f3f3f3;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        margin-top: 20px;
-    }
-    .una_bn {
-        width: 70%;
-        background-color: #f3f3f3;
-        margin-top: 15px;
-    }
-    .una_bn img {
-        width: 100%;
-    }
-    .una_1 {
-        width: 69%;
-        background-color: #f3f3f3;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 20px;
-    }
-    .una_1 img {
-        width: 30%;
-        background-color: #f3f3f3;
-        outline: dashed #a78a7f 2px;
-        outline-offset: 5px;
-    }
-    .una_2 {
-        width: 70%;
-        background-color: #f3f3f3;
-        margin-top: 20px;
-    }
-    .una_2 img {
-        width: 100%;
-    }
-    .una_3 {
-        width: 70%;
-        background-color: #f3f3f3;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 20px;
-    }
-    .cutline {
-        width: 70%;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        overflow: hidden;
-        margin-top: 5px;
-    }
-    #cut {
-        align-self: start;
-        height: 40px;
-    }
-    #long {
-        width: 30.05%;
-    }
-    #new4 {
-        width: 69.95%;
-    }
+@media only screen and (min-width: 768px) {
+  .work {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f3f3f3;
+    margin-top: 20px;
+  }
+
+  .una_bn {
+    width: 70%;
+    background-color: #f3f3f3;
+    margin-top: 20px;
+  }
+  .una_bn img {
+    width: 100%;
+  }
+
+  .una_1 {
+    width: 69%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f3f3;
+    margin-top: 20px;
+  }
+  .una_1 img {
+    width: 30%;
+    background-color: #f3f3f3;
+    outline: dashed #a78a7f 2px;
+    outline-offset: 5px;
+  }
+
+  .una_2 {
+    width: 70%;
+    background-color: #f3f3f3;
+    margin-top: 20px;
+  }
+  .una_2 img {
+    width: 100%;
+  }
+
+  .una_3 {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f3f3;
+    margin-top: 20px;
+  }
+
+  .cutline {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #f3f3f3;
+    margin-top: 5px;
+    overflow: hidden;
+  }
+
+  #cut {
+    align-self: start;
+    height: 40px;
+  }
+
+  #long {
+    width: 30.05%;
+  }
+
+  #new4 {
+    width: 69.95%;
+  }
+
   .out {
     width: 70%;
     height: 250px;
@@ -342,7 +353,7 @@ body, html {
     mix-blend-mode: darken;
   }
   .inner img {
-    width: 70%;
+    width: 50%;
     opacity: 1;
     transition: ease-in-out 1s;
   }
@@ -363,64 +374,64 @@ body, html {
     background-color: #ccbcb1;
   }
 
-    /* 作品_商品 */
-    .project {
-        width: 70%;
-        background-color: #f3f3f3;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-top: 15px;
-    }
-    .project div {
-        width: 30%;
-    }
-    .project div>img {
-        width: 100%;
-    }
-    /* 作品_anybeam */
-    .anybeam {
-        width: 70%;
-        background-color: #f3f3f3;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-top: 15px;
-        margin-bottom: 30px;
-    }
-    .anybeam img {
-        width: 49%;
-    }
-    /* 聯絡我 */
+  .project {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #f3f3f3;
+    margin-top: 20px;
+  }
+  .project div {
+    width: 30%;
+  }
+  .project div > img {
+    width: 100%;
+  }
 
-.mail {
+  .anybeam {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #f3f3f3;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .anybeam img {
+    width: 49%;
+  }
+
+  .mail {
     width: 50px;
     height: 50px;
     position: fixed;
     bottom: 210px;
     right: 30px;
-}
-.fb {
+  }
+
+  .fb {
     width: 50px;
     height: 50px;
     position: fixed;
     bottom: 150px;
     right: 30px;
-}
-.ig {
+  }
+
+  .ig {
     width: 50px;
     height: 50px;
     position: fixed;
     bottom: 90px;
     right: 30px;
-}
-/* 返回頂端按鈕 */
-.back-to-top {
-    position: fixed;
+  }
+
+  .back-to-top {
     width: 50px;
     height: 50px;
+    position: fixed;
     bottom: 30px;
     right: 30px;
     color: #f3f3f3;
@@ -431,13 +442,13 @@ body, html {
     border: solid #f3f3f3 2px;
     border-radius: 999em;
     display: none;
-}
-.back-to-top:hover {
+  }
+  .back-to-top:hover {
     color: #a78a7f;
     background-color: #f3f3f3;
     border: solid #a78a7f 2px;
     cursor: pointer;
-}
+  }
 }
 @media only screen and (max-width: 767px) {
   .work {
@@ -543,10 +554,9 @@ body, html {
     opacity: 1;
   }
   .namecard:hover > .bg > .inner > #title {
-    color: #a78a7f;
-    background-color: #f3f3f3;
-    border: solid #a78a7f 2px;
-    cursor: pointer;
+    display: block;
+    transform: rotateY(0deg);
+    transition: ease-in-out 1s;
   }
 
   .inner {
@@ -606,7 +616,6 @@ body, html {
     align-items: flex-start;
     background-color: #f3f3f3;
     margin-top: 20px;
-    margin-bottom:30px;
   }
   .anybeam img {
     width: 100%;
