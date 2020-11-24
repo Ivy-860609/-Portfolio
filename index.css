@@ -130,7 +130,7 @@ body, html {
     mix-blend-mode: darken;
   }
   .inner img {
-    width: 50%;
+    width: 30%;
     opacity: 1;
     transition: ease-in-out 1s;
   }
@@ -353,12 +353,13 @@ body, html {
     mix-blend-mode: darken;
   }
   .inner img {
-    width: 50%;
+    width: 30%;
     opacity: 1;
     transition: ease-in-out 1s;
   }
 
   #title {
+    width:50%;
     color: #463333;
     display: none;
     transform: rotateY(180deg);
@@ -570,12 +571,13 @@ body, html {
     mix-blend-mode: darken;
   }
   .inner img {
-    width: 100%;
+    width: 40%;
     opacity: 1;
     transition: ease-in-out 1s;
   }
 
   #title {
+    width:50%;
     color: #463333;
     display: none;
     transform: rotateY(180deg);
