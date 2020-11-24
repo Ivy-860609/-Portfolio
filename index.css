@@ -164,11 +164,11 @@ body, html {
     overflow: hidden;
   }
   .project div > img {
-    width: 100%;
+    height: 100%;
     transition: ease-in-out 1s;
   }
   .project div > img:hover {
-    width: 110%;
+    height: 110%;
   }
 
   .anybeam {
