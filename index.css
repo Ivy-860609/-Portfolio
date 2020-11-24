@@ -129,7 +129,7 @@ body, html {
     mix-blend-mode: darken;
   }
   .inner img {
-    width: 30%;
+    width: 45%;
     opacity: 1;
     transition: ease-in-out 1s;
   }
@@ -351,13 +351,13 @@ body, html {
     mix-blend-mode: darken;
   }
   .inner img {
-    width: 30%;
+    width: 45%;
     opacity: 1;
     transition: ease-in-out 1s;
   }
 
   #title {
-    width:50%;
+    font-size:8px;
     color: #463333;
     display: none;
     transform: rotateY(180deg);
@@ -551,11 +551,6 @@ body, html {
     transition: ease-in-out 1s;
     opacity: 1;
   }
-  .namecard:hover > .bg > .inner > #title {
-    display: block;
-    transform: rotateY(0deg);
-    transition: ease-in-out 1s;
-  }
 
   .inner {
     width: 100%;
@@ -568,16 +563,14 @@ body, html {
     mix-blend-mode: darken;
   }
   .inner img {
-    width: 40%;
+    width: 45%;
     opacity: 1;
     transition: ease-in-out 1s;
   }
 
   #title {
-    width:50%;
+    font-size: 5px;
     color: #463333;
-    display: none;
-    transform: rotateY(180deg);
   }
 
   .bg {
