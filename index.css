@@ -129,7 +129,7 @@ body, html {
     mix-blend-mode: darken;
   }
   .inner img {
-    width: 45%;
+    width: 40%;
     opacity: 1;
     transition: ease-in-out 1s;
   }
@@ -320,7 +320,7 @@ body, html {
   }
 
   .namecard {
-    width: 35%;
+    width: 40%;
     height: 65%;
     display: flex;
     flex-direction: column;
