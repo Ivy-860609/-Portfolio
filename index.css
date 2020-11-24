@@ -231,7 +231,7 @@ body, html {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px,max-width:1199px;) {
   .work {
     width: 100%;
     display: flex;
@@ -320,8 +320,8 @@ body, html {
   }
 
   .namecard {
-    width: 50%;
-    height: 70%;
+    width: 35%;
+    height: 65%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -351,13 +351,13 @@ body, html {
     mix-blend-mode: darken;
   }
   .inner img {
-    width: 45%;
+    width: 30%;
     opacity: 1;
     transition: ease-in-out 1s;
   }
 
   #title {
-    font-size:5px;
+    font-size:8px;
     color: #463333;
     display: none;
     transform: rotateY(180deg);
@@ -537,8 +537,8 @@ body, html {
   }
 
   .namecard {
-    width: 80%;
-    height: 70%;
+    width: 65%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -563,13 +563,13 @@ body, html {
     mix-blend-mode: darken;
   }
   .inner img {
-    width: 60%;
+    width: 45%;
     opacity: 1;
     transition: ease-in-out 1s;
   }
 
   #title {
-    font-size: 5px;
+    font-size: 8px;
     color: #463333;
   }
 
