@@ -320,8 +320,8 @@ body, html {
   }
 
   .namecard {
-    width: 25%;
-    height: 80%;
+    width: 50%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -357,7 +357,7 @@ body, html {
   }
 
   #title {
-    font-size:8px;
+    font-size:5px;
     color: #463333;
     display: none;
     transform: rotateY(180deg);
@@ -537,8 +537,8 @@ body, html {
   }
 
   .namecard {
-    width: 25%;
-    height: 80%;
+    width: 80%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -563,7 +563,7 @@ body, html {
     mix-blend-mode: darken;
   }
   .inner img {
-    width: 45%;
+    width: 60%;
     opacity: 1;
     transition: ease-in-out 1s;
   }
