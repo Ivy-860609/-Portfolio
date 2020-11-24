@@ -135,6 +135,7 @@ body, html {
   }
 
   #title {
+    font-sixe: 12px;
     color: #463333;
     display: none;
     transform: rotateY(180deg);
