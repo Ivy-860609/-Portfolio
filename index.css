@@ -161,7 +161,6 @@ body, html {
   }
   .project div {
     width: 30%;
-    height: 310px;
     overflow: hidden;
   }
   .project div > img {
