@@ -233,11 +233,6 @@ body, html {
   }
 }
 @media only screen and (min-width:768px){
-    /* 頁首 */
-    .bn {
-        width: 100%;
-    }
-    /* 作品_una */
     .work {
         width: 100%;
         background-color: #f3f3f3;
