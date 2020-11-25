@@ -58,6 +58,7 @@ body, html {
   }
   .work .cutline {
     width: 100%;
+    margin-top: 20px;
     overflow: hidden;
   }
   .work .cutline img {
@@ -99,7 +100,7 @@ body, html {
     height: 100%;
     mix-blend-mode: darken;
   }
-  .work .out .namecard .bg .inner .img {
+  .work .out .namecard .bg .inner img {
     width: 45%;
     transform: rotateY(0deg);
     transition: ease-in-out 1s;
@@ -286,7 +287,7 @@ body, html {
     height: 100%;
     mix-blend-mode: darken;
   }
-  .work .out .namecard .bg .inner .img {
+  .work .out .namecard .bg .inner img {
     width: 45%;
     transform: rotateY(0deg);
     transition: ease-in-out 1s;
@@ -416,6 +417,7 @@ body, html {
   }
   .work .cutline {
     width: 100%;
+    margin-top: 20px;
     overflow: hidden;
   }
   .work .cutline img {
@@ -457,7 +459,7 @@ body, html {
     height: 100%;
     mix-blend-mode: darken;
   }
-  .work .out .namecard .bg .inner .img {
+  .work .out .namecard .bg .inner img {
     width: 45%;
     transform: rotateY(0deg);
     transition: ease-in-out 1s;
