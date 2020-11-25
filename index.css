@@ -96,6 +96,7 @@ body, html {
     justify-content: center;
     align-items: center;
     margin-top: 0px;
+    height: 100%;
     mix-blend-mode: darken;
   }
   .work .out .namecard .bg .inner .img {
@@ -243,6 +244,7 @@ body, html {
   }
   .work .cutline {
     width: 100%;
+    margin-top: 15px;
     overflow: hidden;
   }
   .work .cutline img {
@@ -253,7 +255,7 @@ body, html {
     width: 100%;
     height: 250px;
     position: relative;
-    margin-top: 20px;
+    margin-top: 15px;
     background-color: #463333;
   }
   .work .out .namecard {
@@ -281,6 +283,7 @@ body, html {
     justify-content: center;
     align-items: center;
     margin-top: 0px;
+    height: 100%;
     mix-blend-mode: darken;
   }
   .work .out .namecard .bg .inner .img {
@@ -409,6 +412,7 @@ body, html {
   }
   .work .una_3 img {
     width: 100%;
+    margin-top: 20px;
   }
   .work .cutline {
     width: 100%;
@@ -450,6 +454,7 @@ body, html {
     justify-content: center;
     align-items: center;
     margin-top: 0px;
+    height: 100%;
     mix-blend-mode: darken;
   }
   .work .out .namecard .bg .inner .img {
@@ -478,6 +483,7 @@ body, html {
   }
   .work .project div img {
     width: 100%;
+    margin-top: 20px;
   }
   .work .anybeam {
     width: 100%;
