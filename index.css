@@ -392,16 +392,17 @@ body, html {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 5px;
   }
   .work .una_1 img {
     width: 100%;
+    margin-top: 10px;
   }
   .work .una_2 {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 15px;
   }
   .work .una_3 {
     width: 100%;
@@ -409,26 +410,25 @@ body, html {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
   }
   .work .una_3 img {
     width: 100%;
-    margin-top: 20px;
   }
   .work .cutline {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 15px;
     overflow: hidden;
   }
   .work .cutline img {
     align-self: start;
-    height: 30px;
+    height: 20px;
   }
   .work .out {
     width: 100%;
     height: 250px;
     position: relative;
-    margin-top: 20px;
+    margin-top: 15px;
     background-color: #463333;
   }
   .work .out .namecard {
@@ -478,7 +478,7 @@ body, html {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
   }
   .work .project div {
     width: 100%;
@@ -493,7 +493,7 @@ body, html {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 30px;
   }
   .work .anybeam img {
