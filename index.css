@@ -28,18 +28,19 @@ body, html {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 20px;
   }
   .work .una_1 img {
+    margin-top: 20px;
     width: 30%;
-    outline: dashed #463333 2px;
+    outline: dashed #a78a7f 2px;
     outline-offset: 5px;
   }
   .work .una_2 {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .work .una_3 {
     width: 100%;
@@ -50,10 +51,10 @@ body, html {
     margin-top: 20px;
   }
   .work .una_3 #big {
-    width: 30.05%;
+    width: 69.95%;
   }
   .work .una_3 #small {
-    width: 69.95%;
+    width: 30.05%;
   }
   .work .cutline {
     width: 100%;
@@ -61,7 +62,7 @@ body, html {
   }
   .work .cutline img {
     align-self: start;
-    height: 40px;
+    height: 35px;
   }
   .work .out {
     width: 100%;
@@ -71,8 +72,8 @@ body, html {
     background-color: #463333;
   }
   .work .out .namecard {
-    width: 35%;
-    height: 70%;
+    width: 25%;
+    height: 80%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -81,15 +82,25 @@ body, html {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
   }
   .work .out .namecard .bg {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100%;
     height: 90%;
     background-color: #a78a7f;
   }
   .work .out .namecard .bg .inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
     mix-blend-mode: darken;
   }
   .work .out .namecard .bg .inner .img {
-    width: 40%;
+    width: 45%;
+    transform: rotateY(0deg);
     transition: ease-in-out 1s;
   }
   .work .out .namecard .bg .inner h3 {
@@ -172,13 +183,14 @@ body, html {
     transition: background-color 0.4s;
     outline-style: none;
     background-color: #a78a7f;
-    border: solid #f3f3f3 2px 999em;
+    border: solid #f3f3f3 2px;
+    border-radius: 999em;
     display: none;
   }
   .back-to-top:hover {
     color: #a78a7f;
     background-color: #f3f3f3;
-    border: solid #a78a7f 2px 999em;
+    border: solid #a78a7f 2px;
     cursor: pointer;
   }
 }
@@ -201,18 +213,19 @@ body, html {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 15px;
   }
   .work .una_1 img {
+    margin-top: 15px;
     width: 30%;
-    outline: dashed #463333 2px;
+    outline: dashed #a78a7f 2px;
     outline-offset: 5px;
   }
   .work .una_2 {
     width: 100%;
-    margin-top: 15px;
+    margin-top: 30px;
   }
   .work .una_3 {
     width: 100%;
@@ -240,12 +253,12 @@ body, html {
     width: 100%;
     height: 250px;
     position: relative;
-    margin-top: 15px;
+    margin-top: 20px;
     background-color: #463333;
   }
   .work .out .namecard {
-    width: 35%;
-    height: 70%;
+    width: 25%;
+    height: 80%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -254,15 +267,25 @@ body, html {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
   }
   .work .out .namecard .bg {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100%;
     height: 90%;
     background-color: #a78a7f;
   }
   .work .out .namecard .bg .inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
     mix-blend-mode: darken;
   }
   .work .out .namecard .bg .inner .img {
-    width: 40%;
+    width: 45%;
+    transform: rotateY(0deg);
     transition: ease-in-out 1s;
   }
   .work .out .namecard .bg .inner h3 {
@@ -335,13 +358,14 @@ body, html {
     transition: background-color 0.4s;
     outline-style: none;
     background-color: #a78a7f;
-    border: solid #f3f3f3 2px 999em;
+    border: solid #f3f3f3 2px;
+    border-radius: 999em;
     display: none;
   }
   .back-to-top:hover {
     color: #a78a7f;
     background-color: #f3f3f3;
-    border: solid #a78a7f 2px 999em;
+    border: solid #a78a7f 2px;
     cursor: pointer;
   }
 }
@@ -366,14 +390,14 @@ body, html {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .work .una_1 img {
-    width: 30%;
+    width: 100%;
   }
   .work .una_2 {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .work .una_3 {
     width: 100%;
@@ -381,7 +405,7 @@ body, html {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .work .una_3 img {
     width: 100%;
@@ -392,18 +416,18 @@ body, html {
   }
   .work .cutline img {
     align-self: start;
-    height: 40px;
+    height: 30px;
   }
   .work .out {
     width: 100%;
     height: 250px;
     position: relative;
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: #463333;
   }
   .work .out .namecard {
-    width: 40%;
-    height: 65%;
+    width: 25%;
+    height: 80%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -412,15 +436,25 @@ body, html {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
   }
   .work .out .namecard .bg {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100%;
     height: 90%;
     background-color: #a78a7f;
   }
   .work .out .namecard .bg .inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
     mix-blend-mode: darken;
   }
   .work .out .namecard .bg .inner .img {
-    width: 35%;
+    width: 45%;
+    transform: rotateY(0deg);
     transition: ease-in-out 1s;
   }
   .work .out .namecard .bg .inner h3 {
@@ -437,7 +471,7 @@ body, html {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .work .project div {
     width: 100%;
@@ -451,7 +485,7 @@ body, html {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 30px;
   }
   .work .anybeam img {
@@ -496,14 +530,15 @@ body, html {
     transition: background-color 0.4s;
     outline-style: none;
     background-color: #a78a7f;
-    border: solid #f3f3f3 2px 999em;
+    border: solid #f3f3f3 2px;
+    border-radius: 999em;
     display: none;
     opacity: 0.5;
   }
   .back-to-top:active {
     color: #a78a7f;
     background-color: #f3f3f3;
-    border: solid #a78a7f 2px 999em;
+    border: solid #a78a7f 2px;
     opacity: 0.8;
   }
 }
