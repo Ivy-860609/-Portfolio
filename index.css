@@ -1,409 +1,137 @@
 body, html {
-  width: 100%;
   margin: 0px;
-  font-family: "Microsoft JhengHei";
+  padding: 0px;
   background-color: #f3f3f3;
 }
 
-.bn {
+.header {
   width: 100%;
 }
 
 @media only screen and (min-width: 1200px) {
   .work {
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .work .bn {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .work .una_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #f3f3f3;
-  }
-
-  .una_bn {
-    width: 70%;
-    background-color: #f3f3f3;
-    margin-top: 50px;
-  }
-  .una_bn img {
-    width: 100%;
-  }
-
-  .una_1 {
-    width: 69%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f3f3f3;
     margin-top: 20px;
   }
-  .una_1 img {
+  .work .una_1 img {
     width: 30%;
-    background-color: #f3f3f3;
-    outline: dashed #a78a7f 2px;
+    outline: dashed #463333 2px;
     outline-offset: 5px;
   }
-
-  .una_2 {
-    width: 70%;
-    background-color: #f3f3f3;
+  .work .una_2 {
+    width: 100%;
     margin-top: 20px;
   }
-  .una_2 img {
+  .work .una_3 {
     width: 100%;
-  }
-
-  .una_3 {
-    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #f3f3f3;
     margin-top: 20px;
   }
-
-  .cutline {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    background-color: #f3f3f3;
-    margin-top: 5px;
+  .work .una_3 #big {
+    width: 30.05%;
+  }
+  .work .una_3 #small {
+    width: 69.95%;
+  }
+  .work .cutline {
+    width: 100%;
     overflow: hidden;
   }
-
-  #cut {
+  .work .cutline img {
     align-self: start;
     height: 40px;
   }
-
-  #long {
-    width: 30.05%;
-  }
-
-  #new4 {
-    width: 69.95%;
-  }
-
-  .out {
-    width: 70%;
+  .work .out {
+    width: 100%;
     height: 250px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    margin-top: 20px;
     background-color: #463333;
   }
-
-  .namecard {
-    width: 25%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .work .out .namecard {
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
     background-color: #f3f3f3;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
   }
-  .namecard:hover > .bg > .inner > img {
-    transform: rotateY(180deg);
-    transition: ease-in-out 1s;
-    opacity: 1;
-  }
-  .namecard:hover > .bg > .inner > #title {
-    display: block;
-    transform: rotateY(0deg);
-    transition: ease-in-out 1s;
-  }
-
-  .inner {
+  .work .out .namecard .bg {
     width: 100%;
     height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #ccbcb1;
+    background-color: #a78a7f;
+  }
+  .work .out .namecard .bg .inner {
     mix-blend-mode: darken;
   }
-  .inner img {
+  .work .out .namecard .bg .inner .img {
     width: 40%;
-    opacity: 1;
     transition: ease-in-out 1s;
   }
-
-  #title {
-    font-sixe: 12px;
+  .work .out .namecard .bg .inner h3 {
     color: #463333;
     display: none;
+    font-size: 15px;
+  }
+  .work .out .namecard:hover > .bg > .inner > img {
     transform: rotateY(180deg);
+    transition: ease-in-out 1s;
   }
-
-  .bg {
+  .work .out .namecard:hover > .bg > .inner > h3 {
+    display: block;
+  }
+  .work .project {
     width: 100%;
-    height: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #ccbcb1;
-  }
-
-  .project {
-    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
-    background-color: #f3f3f3;
+    align-items: center;
     margin-top: 20px;
   }
-  .project div {
+  .work .project div {
     width: 30%;
     height: 310px;
     overflow: hidden;
   }
-  .project div > img {
+  .work .project div img {
     width: 100%;
     transition: ease-in-out 1s;
   }
-  .project div > img:hover {
+  .work .project div img:hover {
     width: 110%;
   }
-
-  .anybeam {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: #f3f3f3;
-    margin-top: 20px;
-    margin-bottom:30px;
-  }
-  .anybeam img {
-    width: 49%;
-  }
-
-  .mail {
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    bottom: 210px;
-    right: 30px;
-  }
-
-  .fb {
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    bottom: 150px;
-    right: 30px;
-  }
-
-  .ig {
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    bottom: 90px;
-    right: 30px;
-  }
-
-  .back-to-top {
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    color: #f3f3f3;
-    font-size: 30px;
-    outline-style: none;
-    transition: background-color 0.4s;
-    background-color: #a78a7f;
-    border: solid #f3f3f3 2px;
-    border-radius: 999em;
-    display: none;
-  }
-  .back-to-top:hover {
-    color: #a78a7f;
-    background-color: #f3f3f3;
-    border: solid #a78a7f 2px;
-    cursor: pointer;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .work {
+  .work .anybeam {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #f3f3f3;
-  }
-
-  .una_bn {
-    width: 70%;
-    background-color: #f3f3f3;
-    margin-top: 20px;
-  }
-  .una_bn img {
-    width: 100%;
-  }
-
-  .una_1 {
-    width: 69%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #f3f3f3;
-    margin-top: 20px;
-  }
-  .una_1 img {
-    width: 30%;
-    background-color: #f3f3f3;
-    outline: dashed #a78a7f 2px;
-    outline-offset: 5px;
-  }
-
-  .una_2 {
-    width: 70%;
-    background-color: #f3f3f3;
-    margin-top: 20px;
-  }
-  .una_2 img {
-    width: 100%;
-  }
-
-  .una_3 {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f3f3f3;
-    margin-top: 20px;
-  }
-
-  .cutline {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    background-color: #f3f3f3;
-    margin-top: 5px;
-    overflow: hidden;
-  }
-
-  #cut {
-    align-self: start;
-    height: 40px;
-  }
-
-  #long {
-    width: 30.05%;
-  }
-
-  #new4 {
-    width: 69.95%;
-  }
-
-  .out {
-    width: 70%;
-    height: 250px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #463333;
-  }
-
-  .namecard {
-    width: 40%;
-    height: 65%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #f3f3f3;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-  }
-  .namecard:hover > .bg > .inner > img {
-    transform: rotateY(180deg);
-    transition: ease-in-out 1s;
-    opacity: 1;
-  }
-  .namecard:hover > .bg > .inner > #title {
-    display: block;
-    transform: rotateY(0deg);
-    transition: ease-in-out 1s;
-  }
-
-  .inner {
-    width: 100%;
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #ccbcb1;
-    mix-blend-mode: darken;
-  }
-  .inner img {
-    width: 30%;
-    opacity: 1;
-    transition: ease-in-out 1s;
-  }
-
-  #title {
-    font-size:8px;
-    color: #463333;
-    display: none;
-    transform: rotateY(180deg);
-  }
-
-  .bg {
-    width: 100%;
-    height: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #ccbcb1;
-  }
-
-  .project {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: #f3f3f3;
-    margin-top: 20px;
-    margin-bottom:30px;
-  }
-  .project div {
-    width: 30%;
-  }
-  .project div > img {
-    width: 100%;
-  }
-
-  .anybeam {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: #f3f3f3;
     margin-top: 20px;
     margin-bottom: 30px;
   }
-  .anybeam img {
-    width: 49%;
+  .work .anybeam img {
+    width: 45%;
   }
 
   .mail {
@@ -438,184 +166,289 @@ body, html {
     right: 30px;
     color: #f3f3f3;
     font-size: 30px;
-    outline-style: none;
     transition: background-color 0.4s;
+    outline-style: none;
     background-color: #a78a7f;
-    border: solid #f3f3f3 2px;
-    border-radius: 999em;
+    border: solid #f3f3f3 2px 999em;
     display: none;
   }
   .back-to-top:hover {
     color: #a78a7f;
     background-color: #f3f3f3;
-    border: solid #a78a7f 2px;
+    border: solid #a78a7f 2px 999em;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .work {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .work .bn {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .work .una_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .work .una_1 img {
+    width: 30%;
+    outline: dashed #463333 2px;
+    outline-offset: 5px;
+  }
+  .work .una_2 {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .work .una_3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .work .una_3 #big {
+    width: 30.05%;
+  }
+  .work .una_3 #small {
+    width: 69.95%;
+  }
+  .work .cutline {
+    width: 100%;
+    overflow: hidden;
+  }
+  .work .cutline img {
+    align-self: start;
+    height: 40px;
+  }
+  .work .out {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    margin-top: 15px;
+    background-color: #463333;
+  }
+  .work .out .namecard {
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #f3f3f3;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  .work .out .namecard .bg {
+    width: 100%;
+    height: 90%;
+    background-color: #a78a7f;
+  }
+  .work .out .namecard .bg .inner {
+    mix-blend-mode: darken;
+  }
+  .work .out .namecard .bg .inner .img {
+    width: 40%;
+    transition: ease-in-out 1s;
+  }
+  .work .out .namecard .bg .inner h3 {
+    color: #463333;
+    font-size: 12px;
+  }
+  .work .out .namecard:active > .bg > .inner > img {
+    transform: rotateY(180deg);
+    transition: ease-in-out 1s;
+  }
+  .work .project {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .work .project div {
+    width: 30%;
+  }
+  .work .project div img {
+    width: 100%;
+  }
+  .work .anybeam {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .work .anybeam img {
+    width: 45%;
+  }
+
+  .mail {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 210px;
+    right: 30px;
+  }
+
+  .fb {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 150px;
+    right: 30px;
+  }
+
+  .ig {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+  }
+
+  .back-to-top {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: #f3f3f3;
+    font-size: 30px;
+    transition: background-color 0.4s;
+    outline-style: none;
+    background-color: #a78a7f;
+    border: solid #f3f3f3 2px 999em;
+    display: none;
+  }
+  .back-to-top:hover {
+    color: #a78a7f;
+    background-color: #f3f3f3;
+    border: solid #a78a7f 2px 999em;
     cursor: pointer;
   }
 }
 @media only screen and (max-width: 767px) {
   .work {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .work .bn {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .work .una_1 {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #f3f3f3;
-  }
-
-  .una_bn {
-    width: 80%;
-    background-color: #f3f3f3;
     margin-top: 10px;
   }
-  .una_bn img {
-    width: 100%;
+  .work .una_1 img {
+    width: 30%;
   }
-
-  .una_1 {
-    width: 80%;
+  .work .una_2 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .work .una_3 {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #f3f3f3;
-    margin-top: 0px;
-  }
-  .una_1 img {
-    width: 100%;
-    background-color: #f3f3f3;
-    margin-top: 20px;
-  }
-
-  .una_2 {
-    width: 80%;
-    background-color: #f3f3f3;
-    margin-top: 20px;
-  }
-  .una_2 img {
-    width: 100%;
-  }
-
-  .una_3 {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f3f3f3;
     margin-top: 10px;
   }
-
-  .cutline {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    background-color: #f3f3f3;
-    margin-top: 5px;
+  .work .una_3 img {
+    width: 100%;
+  }
+  .work .cutline {
+    width: 100%;
     overflow: hidden;
   }
-
-  #cut {
+  .work .cutline img {
     align-self: start;
-    height: 28px;
+    height: 40px;
   }
-
-  #long {
+  .work .out {
     width: 100%;
-  }
-
-  #new4 {
-    width: 100%;
-  }
-
-  .out {
-    width: 80%;
     height: 250px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    margin-top: 10px;
     background-color: #463333;
   }
-
-  .namecard {
-    width: 65%;
-    height: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .work .out .namecard {
+    width: 40%;
+    height: 65%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
     background-color: #f3f3f3;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
   }
-  .namecard:hover > .bg > .inner > img {
-    transform: rotateY(180deg);
-    transition: ease-in-out 1s;
-    opacity: 1;
-  }
-
-  .inner {
+  .work .out .namecard .bg {
     width: 100%;
     height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #ccbcb1;
+    background-color: #a78a7f;
+  }
+  .work .out .namecard .bg .inner {
     mix-blend-mode: darken;
   }
-  .inner img {
-    width: 45%;
-    opacity: 1;
+  .work .out .namecard .bg .inner .img {
+    width: 35%;
     transition: ease-in-out 1s;
   }
-
-  #title {
-    font-size: 8px;
+  .work .out .namecard .bg .inner h3 {
     color: #463333;
+    font-size: 12px;
   }
-
-  .bg {
+  .work .out .namecard:active > .bg > .inner > img {
+    transform: rotateY(180deg);
+    transition: ease-in-out 1s;
+  }
+  .work .project {
     width: 100%;
-    height: 90%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    background-color: #ccbcb1;
+    margin-top: 10px;
   }
-
-  .project {
-    width: 80%;
+  .work .project div {
+    width: 100%;
+  }
+  .work .project div img {
+    width: 100%;
+  }
+  .work .anybeam {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
-    background-color: #f3f3f3;
-    margin-top: 0px;
-  }
-  .project div {
-    width: 100%;
+    align-items: center;
     margin-top: 10px;
+    margin-bottom: 30px;
   }
-  .project div > img {
+  .work .anybeam img {
     width: 100%;
-  }
-
-  .anybeam {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: #f3f3f3;
-    margin-top: 20px;
-    margin-bottom:30px;
-  }
-  .anybeam img {
-    width: 100%;
-    margin-top: 10px;
   }
 
   .mail {
@@ -653,19 +486,17 @@ body, html {
     right: 210px;
     color: #f3f3f3;
     font-size: 30px;
-    outline-style: none;
     transition: background-color 0.4s;
+    outline-style: none;
     background-color: #a78a7f;
-    border: solid #f3f3f3 2px;
-    border-radius: 999em;
+    border: solid #f3f3f3 2px 999em;
     display: none;
     opacity: 0.5;
   }
   .back-to-top:active {
     color: #a78a7f;
     background-color: #f3f3f3;
-    border: solid #a78a7f 2px;
-    cursor: pointer;
+    border: solid #a78a7f 2px 999em;
     opacity: 0.8;
   }
 }
